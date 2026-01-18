@@ -22,6 +22,10 @@ The primary goals of this project were to:
 - Agent-based orchestration using LangChain for flexible tool composition
 - Modular and extensible design, enabling easy expansion to additional tools, models, or data sources
 
+## Configuration
+This demo requires environment variables for external services.
+See `.env` for required variables.
+
 ## Notes
 - This repository is intended as a demonstration and reference, not a production deployment.
 - Environment-specific configuration (e.g., API keys, model access) is required to run the notebook locally.
